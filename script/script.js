@@ -20,9 +20,9 @@ function selectTicket(ticket){
 const ticSelected = document.getElementById("ticSelected");
     ticSelected.innerHTML += `
       <tr>
-        <td>${ticketName}</td>
-        <td>Economy</td>
-        <td>500</td>
+        <td class="p-2">${ticketName}</td>
+        <td class="p-2">Economy</td>
+        <td class="p-2">550</td>
       </tr>
     `;
 
